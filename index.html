@@ -1,0 +1,1153 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>my 1st website</title>
+    <meta name="author" content="surajit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is for my portfolio website(1st)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="total_body_wrapper">  
+    <div class="header">
+
+
+
+        <nav class="complete_navbar" id="nav_fixed">
+
+            <div class="nav_image_brand">
+                <img src="images/logo.png" alt="" width="100%">
+            </div>
+
+            <div class="menus">
+                <ul class="ul_li_a">
+                    <!-- 1st submenu -->
+                    <li class="home_submenu"> <a href="#" style="padding: 0px;">Home <ion-icon
+                                name="chevron-down-outline"></ion-icon></a>
+
+                        <ul class="home_dropdown">
+                            <li><a href="#">Homepage One</a></li>
+                            <li><a href="#">Homepage Two</a></li>
+
+                            <!-- 2nd submenu start-->
+                            <li style="position: relative; z-index: 999;" class="homepage_style"><a href="#">Homepage
+                                    Style<ion-icon name="chevron-forward-outline"></ion-icon></a>
+
+                                <ul class="homepage_style_submenu">
+                                    <li><a href="#">Homepage Style One</a></li>
+                                    <li><a href="#"> Homepage Style Two</a></li>
+                                </ul>
+
+                            </li>
+                            <!--2nd submenu end  -->
+
+                        </ul>
+
+                    </li>
+
+                    <!-- 1st submenu end -->
+
+
+                    <!-- 3rd summenu start -->
+
+                    <li> <a href="#">About Us</a> </li>
+
+                    <li class="service_sub_menus"> <a href="#"> Services <ion-icon
+                                name="chevron-down-outline"></ion-icon></a>
+
+                        <ul class="service_dropdown">
+
+                            <li><a href="#">Service 1</a></li>
+                            <li><a href="#">Service 2</a></li>
+                            <li><a href="#">Service 3</a></li>
+
+                        </ul>
+
+
+
+                    </li>
+                    <!-- 3rd summenu end -->
+
+
+                    <li> <a href="#" class="border_bottom1"> Project</a> </li>
+                    <li> <a href="#" class="border_bottom2"> Blog</a></li>
+                    <li> <a href="#"> Contact us</a></li>
+
+                    <!-- searbar toggle start-->
+                    <i id="search1" class="fa-sharp fa-solid fa-magnifying-glass"
+                        style="font-size: 20px; position: relative; color: #337ab7;">
+
+                        <div class="input_box">
+                            <input type="text" placeholder="Search Here">
+                            <span><i class="fa-sharp fa-solid fa-magnifying-glass search2"
+                                    style="font-size: 14px;"></i></span>
+                        </div>
+
+                    </i>
+                    <!-- searbar toggle end-->
+
+
+
+            </div>
+            <i class="fa-solid fa-bars three_bar"></i>
+        </nav>
+
+
+    </div>
+
+
+    <div class="left_design_image" style="position: absolute; left: 0; top: 0;">
+        <img src="images/image-1.jpg" alt="" class="left_design_image_first">
+    </div>
+
+    <div class="cloud_carousel">
+        <img src="images/cloud.png" alt="" width="94%" class="cloud_image">
+    </div>
+
+    <!-- carousel div start -->
+    <div class="total_carousel">
+
+        <div class="container_fluid" id="carousel_wrapper">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="null">
+                <!-- Indicators -->
+                <!-- <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol> -->
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+
+                        <div class="first_slide1">
+
+                            <img src="images/content-image-2.png" alt="" class="first_img">
+
+                            <div class="second_image_slide">
+                                <img class="second_img" src="images/content-image-1.png" style="position: absolute;">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="item">
+                        <img src="images/content-image-5.png" alt="Chicago" style="width:100%;" class="slide_image_2">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/content-image-6.png" alt="New York" style="width:100%;" class="slide_image_3">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <!-- <a class="left carousel-control" id="left_control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" id="left_button"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" id="right_control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a> -->
+            </div>
+        </div>
+        <!-- text and cloud carousel start -->
+        <div class="cloud_text">
+
+            <div class="text_carousel">
+                <div id="myCarousel" class="carousel slide" data-pause="null" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <!-- <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol> -->
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item ">
+                            <div class="first_slide">
+                                <h2 class="h2_1">
+                                    <span style="--i:1;">D</span>
+                                    <span style="--i:2.4;">i</span>
+                                    <span style="--i:3;">g</span>
+                                    <span style="--i:4.35;">i</span>
+                                    <span style="--i:5;">t</span>
+                                    <span style="--i:5.8;">a</span>
+                                    <span style="--i:7.2;">l</span>
+                                    <span style="--i:8.2;">M</span>
+                                    <span style="--i:10;">a</span>
+                                    <span style="--i:11.3;">r</span>
+                                    <span style="--i:12.2;">k</span>
+                                    <span style="--i:13.3;">e</span>
+                                    <span style="--i:14.54;">t</span>
+                                    <span style="--i:15.4;">i</span>
+                                    <span style="--i:16;">n</span>
+                                    <span style="--i:17.4;">g</span>
+                                </h2>
+
+                                <h2 class="for_media_quary1 h2_1"
+                                    style="display: block; left: -390px !important; top: -15px; ">
+                                    <span style="--i:19.5;">A</span>
+                                    <span style="--i:21;">g</span>
+                                    <span style="--i:22.3;">e</span>
+                                    <span style="--i:23.5;">n</span>
+                                    <span style="--i:24.8;">c</span>
+                                    <span style="--i:26;">y</span>
+                                </h2>
+                            </div>
+
+                            <div class="wrapper_text" style="margin-top: -30px !important;">
+
+                                <p class="text1">
+                                    <span class="include_text1"> Provide all kind of seo services and help to improve
+                                        seo
+                                        ranking.Globally incubate
+                                        standards compliant
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="button_wrapper1">
+
+                                <button type="button" class="button1" style="margin-top: 6px;"> Explore Now <i
+                                        class="fa-solid fa-play" id="button1_icon"></i></button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <div class="second_slide">
+
+                                <h2 class="h2_2" style="display: inline-block;">
+
+                                    <span style="--i:0;">W</span>
+                                    <span style="--i:2.3;">h</span>
+                                    <span style="--i:3.7;">a</span>
+                                    <span style="--i:5.2;">t</span>
+                                    <span style="--i:5;">&nbsp;</span>
+                                    <span style="--i:6.45;">i</span>
+                                    <span style="--i:7;">s</span>
+                                    <span style="--i:8;">&nbsp;</span>
+                                    <span style="--i:8.7;">s</span>
+                                    <span style="--i:9.9;">e</span>
+                                    <span style="--i:11.2;">o</span>
+                                    <span style="--i:12;">&nbsp;</span>
+                                    <span style="--i:13;">&</span>
+                                    <span style="--i:14;">&nbsp;</span>
+                                    <span style="--i:15;">h</span>
+                                    <span style="--i:16.4;">o</span>
+                                    <span style="--i:17.7;">w</span>
+                                    <span style="--i:18;">&nbsp;</span>
+
+                                    <!-- <h2 class="h2_2 for_media_quary2" style="position: relative; top:-95px; display:none;"> 
+                                <span style="--i:20;">c</span>
+                                <span style="--i:21.2;">a</span>
+                                <span style="--i:22.6;">n</span>
+                                <span style="--i:22;">&nbsp;</span>
+                                <span style="--i:24.4;">i</span>
+                                <span style="--i:25;">t</span>
+                                <span style="--i:25;">&nbsp;</span>
+                                <span style="--i:26.3;">h</span>
+                                <span style="--i:27.7;">e</span>
+                                <span style="--i:29;">l</span>
+                                <span style="--i:29.5;">p</span>
+                                <span style="--i:30;">&nbsp;</span>
+                                <span style="--i:31.4;">m</span>
+                                <span style="--i:33.6;">y</span>
+                                <span style="--i:33;">&nbsp;</span> 
+                               </h2> -->
+                                </h2>
+
+                                <h2 class="h2_2 for_media_quary2"
+                                    style="display: block; position: relative; left:-370px; margin-top: -1px;">
+
+                                    <span style="--i:20;">c</span>
+                                    <span style="--i:21.2;">a</span>
+                                    <span style="--i:22.6;">n</span>
+                                    <span style="--i:22;">&nbsp;</span>
+                                    <span style="--i:24.4;">i</span>
+                                    <span style="--i:25;">t</span>
+                                    <span style="--i:25;">&nbsp;</span>
+                                    <span style="--i:26.3;">h</span>
+                                    <span style="--i:27.7;">e</span>
+                                    <span style="--i:29;">l</span>
+                                    <span style="--i:29.6;">p</span>
+                                    <span style="--i:30;">&nbsp;</span>
+                                    <span style="--i:31.4;">m</span>
+                                    <span style="--i:33.6;">y</span>
+                                </h2>
+
+                                <h2 style="display: block; top:0px" class="h2_2" id="h2_2_media_quaries">
+                                    <span style="--i:0; animation-delay:1.3s;">b</span>
+                                    <span style="--i:1.5; animation-delay:1.3s;">u</span>
+                                    <span style="--i:2.9; animation-delay:1.3s;">s</span>
+                                    <span style="--i:4; animation-delay:1.3s;">i</span>
+                                    <span style="--i:4.55; animation-delay:1.3s;">n</span>
+                                    <span style="--i:6; animation-delay:1.3s;">e</span>
+                                    <span style="--i:7.3; animation-delay:1.3s;">s</span>
+                                    <span style="--i:8.4; animation-delay:1.3s;">s</span>
+                                    <span style="--i:10; animation-delay:1.3s;">g</span>
+                                    <span style="--i:11.4; animation-delay:1.3s;">r</span>
+                                    <span style="--i:12.3; animation-delay:1.3s;">o</span>
+                                    <span style="--i:13.6; animation-delay:1.3s;">w</span>
+                                    <span style="--i:15.8; animation-delay:1.3s;">?</span>
+                                </h2>
+                            </div>
+
+                            <div class="wrapper_text">
+
+                                <p class="text2">
+
+                                    <span class="include_text2" style="animation-delay: 1.8s;">
+                                        Provide all kind of seo services and help to improve seo ranking.Globally
+                                        incubate standards
+                                        compliant
+
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="button_wrapper2">
+
+                                <button type="button" class="button2" style="animation-delay:2.7s; margin-top: 6px;">
+                                    Explore Now <i class="fa-solid fa-play"></i></button>
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="third_slide">
+
+                                <h2 class="h2_3">
+                                    <span style="--i:0; animation-delay:1s;">D</span>
+                                    <span style="--i:1.7; animation-delay:1.3s;">i</span>
+                                    <span style="--i:2.4; animation-delay:1.5s;">g</span>
+                                    <span style="--i:4.1; animation-delay:1.7s;">i</span>
+                                    <span style=" --i:4.9; animation-delay:1.9s;">t</span>
+                                    <span style="--i:5.9; animation-delay:2.1s;">a</span>
+                                    <span style="--i:7.5; animation-delay:2.2s;">l</span>
+                                    <span style="--i:12;">&nbsp;</span>
+
+                                    <span style="--i:9; animation-delay:2.3s;">A</span>
+                                    <span style="--i:10.7; animation-delay:2.5s;">g</span>
+                                    <span style="--i:12.3; animation-delay:2.7s;">e</span>
+                                    <span style="--i:13.8; animation-delay:2.9s;">n</span>
+                                    <span style="--i:15.4; animation-delay:3.1s;">c</span>
+                                    <span style="--i:16.8; animation-delay:3.2s;">y</span>
+                                    <span style="--i:12;">&nbsp;</span>
+
+                                    <!-- <span style="--i:19; animation-delay:3.5s;">T</span>
+                                <span style="--i:20.5; animation-delay:3.7s;">h</span>
+                                <span style="--i:22.1; animation-delay:3.9s;">a</span>
+                                <span style="--i:23.7; animation-delay:4.1s;">t</span>
+                                <span style="--i:12; animation-delay:4.3s;">&nbsp;</span>
+                    
+                                <span style="--i:25.5; animation-delay:4.5s;">h</span>
+                                <span style="--i:27.1; animation-delay:4.7s;">e</span>
+                                <span style="--i:28.5; animation-delay:4.9s;">l</span>
+                                <span style="--i:29.2; animation-delay:5.1s;">p</span>
+                                <span style="--i:12;">&nbsp;</span>
+                    
+                                <span style="--i:31.5; animation-delay:5.3s;">y</span>
+                                <span style="--i:32.9; animation-delay:5.5s;">o</span>
+                                <span style="--i:34.4; animation-delay:5.7s;">u</span>
+                                <span style="--i:33; animation-delay:5.9s;">&nbsp;</span>
+                    
+                                <span style="--i:36.5; animation-delay:6.1s;">T</span>
+                                <span style="--i:37.8; animation-delay:6.3s;">o</span> -->
+                                </h2>
+
+                                <h2 class="for_media_quary3 h2_3"
+                                    style="display: block; width: 300%; left: -323px; margin-top: -4px;">
+                                    <span style="--i:19; animation-delay:3.5s;">T</span>
+                                    <span style="--i:20.5; animation-delay:3.7s;">h</span>
+                                    <span style="--i:22.1; animation-delay:3.9s;">a</span>
+                                    <span style="--i:23.7; animation-delay:4.1s;">t</span>
+                                    <span style="--i:12; animation-delay:4.3s;">&nbsp;</span>
+
+                                    <span style="--i:25.5; animation-delay:4.5s;">h</span>
+                                    <span style="--i:27.1; animation-delay:4.7s;">e</span>
+                                    <span style="--i:28.5; animation-delay:4.9s;">l</span>
+                                    <span style="--i:29.2; animation-delay:5.1s;">p</span>
+                                    <span style="--i:12;">&nbsp;</span>
+
+                                    <span style="--i:31.5; animation-delay:5.3s;">y</span>
+                                    <span style="--i:32.9; animation-delay:5.5s;">o</span>
+                                    <span style="--i:34.4; animation-delay:5.7s;">u</span>
+                                    <span style="--i:33; animation-delay:5.9s;">&nbsp;</span>
+
+                                    <span style="--i:36.5; animation-delay:6.1s;">T</span>
+                                    <span style="--i:37.8; animation-delay:6.3s;">o</span>
+                                </h2>
+
+
+                                <h2 style="display: block; top:0px; margin-top: -5px;" class="h2_3">
+                                    <span style="--i:0; animation-delay:6.5s;">G</span>
+                                    <span style="--i:1.85; animation-delay:6.7s;">o</span>
+                                    <span style="--i:33;">&nbsp;</span>
+                                    <span style="--i:3.9; animation-delay:6.9s;">A</span>
+                                    <span style="--i:5.6; animation-delay:7.1s;">h</span>
+                                    <span style="--i:7.2; animation-delay:7.3s;">e</span>
+                                    <span style="--i:8.6; animation-delay:7.5s;">a</span>
+                                    <span style="--i:10.2; animation-delay:7.7s;">d</span>
+                                </h2>
+                            </div>
+
+                            <div class="wrapper_text" style="margin-top: -20px !important;">
+
+                                <p class="text3">
+
+                                    <span class="include_text3" style="animation-delay: 7s;">
+                                        Provide all kind of seo services and help to improve seo ranking.Globally
+                                        incubate standards compliant
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="button_wrapper3">
+
+                                <button type="button" class="button3" style="animation-delay:7s; margin-top: 8px;">
+                                    Explore Now <i class="fa-solid fa-play" id="button3_icon"></i></button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <!-- <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+                </div>
+
+
+            </div> <!-- text carousel end -->
+
+        </div>
+        <!-- text and cloud carousel end -->
+
+        <!-- for media quaries carousel start-->
+        <div class="container media_quaries_carousel" style="width: 100%;">
+            <div id="myCarousel" data-pause="null" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <!-- <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol> -->
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                    <div class="slide_first">
+                        <h2 class="span_wrapper">
+                            <span style="--i:1;">D</span>
+                            <span style="--i:2.4;">i</span>
+                            <span style="--i:3;">g</span>
+                            <span style="--i:4.35;">i</span>
+                            <span style="--i:5;">t</span>
+                            <span style="--i:5.8;">a</span>
+                            <span style="--i:7.2;">l</span>
+                            <span style="--i:8.2;">M</span>
+                            <span style="--i:10;">a</span>
+                            <span style="--i:11.3;">r</span>
+                            <span style="--i:12.2;">k</span>
+                            <span style="--i:13.3;">e</span>
+                            <span style="--i:14.54;">t</span>
+                            <span style="--i:15.4;">i</span>
+                            <span style="--i:16;">n</span>
+                            <span style="--i:17.4;">g</span>
+                
+                            <span style="--i:19.3;">A</span>
+                            <span style="--i:20.7;">g</span>
+                            <span style="--i:22;">e</span>
+                            <span style="--i:23.2;">n</span>
+                            <span style="--i:24.5;">c</span>
+                            <span style="--i:25.7;">y</span>
+                        </h2>
+                    </div>
+                
+                    <div class="whole_text_wrapper">
+                
+                        <p class="first_p_carousel">
+                            <span class="inner_text1"> Provide all kind of seo services and help to improve seo
+                                ranking.Globally incubate
+                                standards compliant
+                            </span>
+                        </p>
+                    </div>
+                
+                    <div class="wrapper_button">
+                
+                        <button type="button" class="button1"> Explore Now <i class="fa-solid fa-play" id="button1_icon"></i></button>
+                
+                    </div>
+    
+    
+                </div>
+          
+                <div class="item">
+    
+                    <div class="slide_second">
+    
+                        <h2 class="span_wrapper2">
+                            <span style="--i:0;">W</span>
+                            <span style="--i:2.3;">h</span>
+                            <span style="--i:3.7;">a</span>
+                            <span style="--i:5.2;">t</span>
+                            <span style="--i:5;">&nbsp;</span>
+                            <span style="--i:6.45;">i</span>
+                            <span style="--i:7;">s</span>
+                            <span style="--i:8;">&nbsp;</span>
+                            <span style="--i:8.7;">s</span>
+                            <span style="--i:9.9;">e</span>
+                            <span style="--i:11.2;">o</span>
+                            <span style="--i:12;">&nbsp;</span>
+                            <span style="--i:13;">&</span>
+                            <span style="--i:14;">&nbsp;</span>
+                            <span style="--i:15;">h</span>
+                            <span style="--i:16.4;">o</span>
+                            <span style="--i:17.7;">w</span>
+                            <span style="--i:18;">&nbsp;</span>
+                            <span style="--i:20;">c</span>
+                            <span style="--i:21.2;">a</span>
+                            <span style="--i:22.6;">n</span>
+                            <span style="--i:22;">&nbsp;</span>
+                            <span style="--i:24.4;">i</span>
+                            <span style="--i:25;">t</span>
+                            <span style="--i:25;">&nbsp;</span>
+                            <span style="--i:26.3;">h</span>
+                            <span style="--i:27.7;">e</span>
+                            <span style="--i:29;">l</span>
+                            <span style="--i:29.5;">p</span>
+                            <span style="--i:30;">&nbsp;</span>
+                            <span style="--i:31.4;">m</span>
+                            <span style="--i:33.6;">y</span>
+                            <span style="--i:33;">&nbsp;</span>
+                        </h2>
+                
+                        <h2 style="display: block; top:-18px" class="span_wrapper2">
+                            <span style="--i:0; animation-delay:1.3s;" ;>b</span>
+                            <span style="--i:1.5; animation-delay:1.3s;" ;>u</span>
+                            <span style="--i:2.9; animation-delay:1.3s;">s</span>
+                            <span style="--i:4; animation-delay:1.3s;">i</span>
+                            <span style="--i:4.55; animation-delay:1.3s;">n</span>
+                            <span style="--i:6; animation-delay:1.3s;">e</span>
+                            <span style="--i:7.3; animation-delay:1.3s;">s</span>
+                            <span style="--i:8.4; animation-delay:1.3s;">s</span>
+                            <span style="--i:8; animation-delay:1.3s;">&nbsp;</span>
+                            <span style="--i:10; animation-delay:1.3s;">g</span>
+                            <span style="--i:11.4; animation-delay:1.3s;">r</span>
+                            <span style="--i:12.3; animation-delay:1.3s;">o</span>
+                            <span style="--i:13.6; animation-delay:1.3s;">w</span>
+                        </h2>
+                    </div>
+                
+                    <div class="whole_text_wrapper2" style="margin-top:-20px ;">
+                
+                        <p class="second_p_carousel">
+                
+                            <span class="inner_text2" style="animation-delay: 1.8s;">
+                                Provide all kind of seo services and help to improve seo ranking.Globally incubate standards compliant
+                
+                            </span>
+                        </p>
+                    </div>
+                
+                    <div class="button_wrapper2">
+                
+                        <button type="button" class="button2" style="animation-delay:2.7s ;"> Explore Now <i
+                                class="fa-solid fa-play"></i></button>
+                
+                    </div>
+    
+    
+                </div>
+              
+                <div class="item">
+    
+                    <div class="slide_third">
+    
+                        <h2 class="span_wrapper3">
+                            <span style="--i:0; animation-delay:1s;">D</span>
+                            <span style="--i:1.7; animation-delay:1.3s;">i</span>
+                            <span style="--i:2.4; animation-delay:1.5s;">g</span>
+                            <span style="--i:4.1; animation-delay:1.7s;">i</span>
+                            <span style=" --i:4.9; animation-delay:1.9s;">t</span>
+                            <span style="--i:5.9; animation-delay:2.1s;">a</span>
+                            <span style="--i:7.5; animation-delay:2.2s;">l</span>
+                            <span style="--i:12;">&nbsp;</span>
+                
+                            <span style="--i:9; animation-delay:2.3s;">A</span>
+                            <span style="--i:10.7; animation-delay:2.5s;">g</span>
+                            <span style="--i:12.3; animation-delay:2.7s;">e</span>
+                            <span style="--i:13.8; animation-delay:2.9s;">n</span>
+                            <span style="--i:15.4; animation-delay:3.1s;">c</span>
+                            <span style="--i:16.8; animation-delay:3.2s;">y</span>
+                            <span style="--i:12;">&nbsp;</span>
+                
+                            <span style="--i:19; animation-delay:3.5s;">T</span>
+                            <span style="--i:20.5; animation-delay:3.7s;">h</span>
+                            <span style="--i:22.1; animation-delay:3.9s;">a</span>
+                            <span style="--i:23.7; animation-delay:4.1s;">t</span>
+                            <span style="--i:12; animation-delay:4.3s;">&nbsp;</span>
+                
+                            <span style="--i:25.5; animation-delay:4.5s;">h</span>
+                            <span style="--i:27.1; animation-delay:4.7s;">e</span>
+                            <span style="--i:28.5; animation-delay:4.9s;">l</span>
+                            <span style="--i:29.2; animation-delay:5.1s;">p</span>
+                            <span style="--i:12;">&nbsp;</span>
+                
+                            <span style="--i:31.5; animation-delay:5.3s;">y</span>
+                            <span style="--i:32.9; animation-delay:5.5s;">o</span>
+                            <span style="--i:34.4; animation-delay:5.7s;">u</span>
+                            <span style="--i:33; animation-delay:5.9s;">&nbsp;</span>
+                
+                            <span style="--i:36.5; animation-delay:6.1s;">T</span>
+                            <span style="--i:37.8; animation-delay:6.3s;">o</span>
+                        </h2>
+                
+                
+                        <h2 style="display: block; top:-15px" class="span_wrapper3">
+                            <span style="--i:0; animation-delay:6.5s;" ;>G</span>
+                            <span style="--i:1.85; animation-delay:6.7s;" ;>o</span>
+                            <span style="--i:33;">&nbsp;</span>
+                            <span style="--i:3.9; animation-delay:6.9s;">A</span>
+                            <span style="--i:5.6; animation-delay:7.1s;">h</span>
+                            <span style="--i:7.2; animation-delay:7.3s;">e</span>
+                            <span style="--i:8.6; animation-delay:7.5s;">a</span>
+                            <span style="--i:10.2; animation-delay:7.7s;">d</span>
+                        </h2>
+                    </div>
+                
+                    <div class="whole_text_wrapper3">
+                
+                        <p class="third_p">
+                
+                            <span class="inner_text3" style="animation-delay: 7s;">
+                                Provide all kind of seo services and help to improve seo ranking.Globally incubate standards compliant
+                            </span>
+                        </p>
+                    </div>
+                
+                    <div class="button_wrapper3">
+                
+                        <button type="button" class="button3" style="animation-delay:7s ;"> Explore Now <i class="fa-solid fa-play"
+                                id="button3_icon"></i></button>
+                
+                    </div>
+    
+    
+                </div>
+            
+              </div>
+          
+              <!-- Left and right controls -->
+              <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a> -->
+            </div>
+          </div>
+
+        <!-- for media quaries carousel end-->
+
+    </div>
+
+
+
+    <!-- carousel div end -->
+
+    <!-- about us start -->
+    <div class="total_about_us" id="about_us_wrapper">
+
+        <div class="left_sec">
+            <div class="red_line_and_p">
+                <p>About Us</p>
+            </div>
+
+            <h2 class="large_h2">
+                We are a dynamic team of creatives people of design, marketing, web & apps development.
+            </h2>
+        </div>
+
+        <div class="right_sec">
+            <h2 class="top">
+                Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business
+                applications through revolutionary catalysts for chang the Seamlessly underwhelm optimal testing
+                procedures whereas processes.Synergistically evolve 2.0 technologies rather than just in
+            </h2>
+
+            <h2 class="bottom">
+                time initiatives. Quickly deploy strategic networks with compelling e-business. Credibly pontificate
+                highly efficient manufactured products and enabled data.Dynamically target high-payoff intellectual
+                capital for customized technologies. Objectively integrate emerging core competencies before.
+            </h2>
+        </div>
+    </div>
+    <!-- about us end -->
+
+    <div id="features_section">
+        <p>Features</p>
+        <h2><span style="display: block;"> What is really seo & how</span>
+            can I use it?</h2>
+    </div>
+    <!-- three box start -->
+    <div class="three_boxes">
+        <div class="box box1">
+            <i id="icon1" style="font-size: 70px;
+            color: #f44438;" class="fa-solid fa-bullseye"></i>
+            <h3>Market Research</h3>
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches
+                Organically</p>
+            <a href="#">Read More</a>
+
+        </div>
+        <div class="box box2">
+            <i id="icon2" class="fa-solid fa-code" style="font-size: 70px;
+            color: #f44438;"></i>
+            <h3>Digital Marketing</h3>
+            <p> Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches
+                Organically</p>
+            <a href="#"> Read More</a>
+        </div>
+        <div class="box box3">
+            <i id="icon3" style="font-size: 70px;
+            color: #f44438;" class="fa-solid fa-envelope-open-text"></i>
+            <h3>Email Research</h3>
+            <p> Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches
+                Organically
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+    </div><!-- three box end -->
+
+    <!-- two section start -->
+    <div class="two_section">
+        <div class="image_section"> 
+            <img src="images/image-12.png" alt="" width="102%">
+        </div>
+
+        <div class="text_and_bullet_points">
+            <div class="all_text">
+                <p class="first_text" style="position:relative; margin-top: 5px;">What we do ?</p>
+                <h2>You may <br> ask what SEO is <br> and why do you need it?</h2>
+                <p class="second_text">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly
+                    coordinate e-business applications through revolutionary catalysts for chang the Seamlessly
+                    underwhelm optimal testing procedures.</p>
+            </div>
+
+            <div class="bullet_points">
+
+                <section class="sec1">
+                    <span><i class="fa-solid fa-globe"></i></span>
+                    <div>
+                        <h4>Social Media Marketing</h4>
+                        <p> Business applications through revolutionary catalysts for chang the Seamlessly underwhelm
+                            dures</p>
+                    </div>
+
+                </section>
+
+                <section class="sec2">
+                    <span><i class="fa-regular fa-envelope"></i></span>
+                    <div>
+                        <h4>Email Marketing</h4>
+                        <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm
+                            dures</p>
+                    </div>
+
+                </section>
+
+                <section class="sec3">
+                    <span><i class="fa-solid fa-chart-simple"></i></span>
+                    <div>
+                        <h4>SEO Optimization</h4>
+                        <p>Business applications through revolutionary catalysts for chang the Seamlessly underwhelm
+                            dures</p>
+                    </div>
+
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </div> <!-- two section end -->
+
+    <!-- testimonial start -->
+
+    <div class="testimonial">
+
+        <div class="left_box">
+
+            <p class="first_p">Testimonial</p>
+
+            <h2 class="heading_first">What our client <br>
+                are saying</h2>
+
+            <p class="second_p"> <i class="fa-solid fa-quote-left" id="open_quote"></i>Leverage agile frameworks to
+                provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster
+                collaborative thinking to further the overall value proposition. Organically grow the holistic world
+                view of disruptive innovation via workplace diversity and empowerment.
+
+            <h5 style="margin-left: 100px; font-size: 17px;
+                color: #141414d2 !important;
+                font-weight: 500;">-J.Nattasha</h5>
+
+            <p style="margin-left: 100px; color: #f44438; margin-top: -8px;"> Designer</p>
+            </p>
+
+        </div>
+
+
+        <div class="right_box">
+            <img src="images/image-2.png" alt="" width="83%">
+        </div>
+    </div>
+
+    <!-- testimonial end -->
+
+    <!-- our project start -->
+    <div class="head1">
+        <p>Work</p>
+        <h2>Our Project</h2>
+
+    </div>
+
+    <!-- our project end -->
+
+    <div class="wrapper_protfolios">
+
+        <div class="child_box first_box">
+            <img src="images/1.jpg" alt="" width="100%">
+
+            <div class="hover">
+
+                <p>Branding</p>
+                <a href="#">Home Decoration</a>
+                <hr>
+
+            </div>
+        </div>
+        <div class="child_box second_box">
+            <img src="images/2.jpg" alt="" width="100%">
+            <div class="hover">
+                <p>Branding</p>
+                <a href="#">Home Decoration</a>
+                <hr>
+            </div>
+
+        </div>
+
+        <div class="child_box third_box">
+            <img src="images/3.jpg" alt="" width="100%">
+            <div class="hover">
+                <p>Branding</p>
+                <a href="#">Home Decoration</a>
+                <hr>
+
+            </div>
+
+        </div>
+
+        <div class="child_box fourth_box" style="margin-bottom: 30px;">
+            <img src="images/4.jpg" alt="" width="100%">
+            <div class="hover">
+                <p>Branding</p>
+                <a href="#">Home Decoration</a>
+                <hr>
+            </div>
+
+        </div>
+
+        <div class="child_box fifth_box" style="margin-bottom: 30px;">
+            <img src="images/5.jpg" alt="" width="100%">
+            <div class="hover">
+                <p>Branding</p>
+                <a href="#">Home Decoration</a>
+                <hr>
+            </div>
+
+        </div>
+
+        <div class="child_box sixth_box" style="margin-bottom: 30px;">
+            <img src="images/6.jpg" alt="" width="100%">
+            <div class="hover">
+                <p>Branding</p>
+                <a href="#">Home Decoration</a>
+                <hr>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="buttom">
+        <section class="portfolio_button">
+            <button type="button" class="submit_bottom">More Work <i class="fa-solid fa-play"
+                    style="padding-left:5px;"></i></button>
+        </section>
+
+    </div>
+
+    <!-- buy plans start -->
+    <div class="whole_plans">
+        <div class="whole_iteam_wrapper">
+        <div class="items">
+            <div class="yearly">
+
+                <div class="first_item">
+                    <p class="one">Free</p>
+                    <p class="two">Monthly Package</p>
+                    <h2>$100.0</h2>
+                    <p class="three">50GB Bandwidth</p>
+                    <p class="four">Business & Financ Analysing</p>
+                    <p class="five">24 Hour Support</p>
+                    <p class="six">Customer Managemet</p>
+                    <button type="button" class="yearly_bottom1">Sign Up</button>
+
+                </div>
+
+                <div class="second_item">
+                    <p class="one">Free</p>
+                    <p class="two">Monthly Package</p>
+                    <h2>$130.00</h2>
+                    <p class="three">50GB Bandwidth</p>
+                    <p class="four">Business & Financ Analysing</p>
+                    <p class="five">24 Hour Support</p>
+                    <p class="six">Customer Managemet</p>
+                    <button type="button" class="yearly_bottom1">Sign Up</button>
+
+                </div>
+
+            </div><!-- yearly -->
+
+            <div class="yearly monthly">
+
+                <div class="first_item">
+                    <p class="one">Free</p>
+                    <p class="two">Monthly Package</p>
+                    <h2>$49.9</h2>
+                    <p class="three">50GB Bandwidth</p>
+                    <p class="four">Business & Financ Analysing</p>
+                    <p class="five">24 Hour Support</p>
+                    <p class="six">Customer Managemet</p>
+                    <button type="button" class="yearly_bottom1">Sign Up</button>
+
+                </div>
+
+                <div class="second_item">
+                    <p class="one">Free</p>
+                    <p class="two">Monthly Package</p>
+                    <h2>$65.90</h2>
+                    <p class="three">50GB Bandwidth</p>
+                    <p class="four">Business & Financ Analysing</p>
+                    <p class="five">24 Hour Support</p>
+                    <p class="six">Customer Managemet</p>
+                    <button type="button" class="yearly_bottom2">Sign Up</button>
+
+                </div>
+
+            </div>
+        </div><!-- item -->
+     </div> 
+
+        <div class="whole_texts">
+            <p class="price">Price</p>
+            <h2>Not any hidden charge, Choose Your pricing plan</h2>
+            <button type="button" class="btn1"> Monthly</button>
+            <button type="button" class="btn2">Yearly</button>
+            <p class="long_text">
+                Distinctively exploit optimal alignments for
+                intuitive bandwidth. Quickly coordinate e-business
+                through revolutionary catalysts for chang the
+                Seamlessly underwhelm optimal testing procedures
+                whereas processes.Synergistically evolve 2.0
+                technologies rather than just inhighly efficient
+                manufactured products and enabled data.
+            </p>
+
+        </div>
+    </div>
+
+
+    <!-- buy plans end -->
+
+    <!-- customers rating start -->
+    <div class="total_ratings">
+
+
+
+        <div class="first_rate">
+
+            <div class="circle"></div>
+            <h2>95</h2>
+            <p>Happy Customers</p>
+
+        </div>
+
+
+        <div class="second_rate">
+
+            <div class="circle2"></div>
+            <h2>80</h2>
+            <p>Professionals</p>
+        </div>
+
+        <div class="third_rate">
+
+            <div class="circle3"></div>
+            <h2>83</h2>
+            <p>Customers</p>
+        </div>
+
+        <div class="fourth_rate">
+
+            <div class="circle4"></div>
+            <h2>76</h2>
+            <p>Progress</p>
+        </div>
+
+    </div>
+        <!-- customers rating end -->
+    <!-- blogs start -->
+    <div class="blog_wrapper">
+        <div class="text_box">
+            <p class="first">Blog</p>
+            <h2>Check what happening inside Timisoara</h2>
+            <p class="large_text">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business through revolutionary catalysts for chang the Seamlessly underwhelm optimal processes.</p>
+
+        </div>
+
+        <div class="blog_box">
+            <div class="first_section">
+               <div class="img">
+                 <img src="images/news-2.jpg" alt="" width="100%">
+                </div> 
+                 <h3>Complimentary Design</h3>
+                <p>Just two good ol' boys Never mean no harm.  law since the day.</p>
+                <p class="icon_p"> More Work <i class="fa-solid fa-play" style="margin-left: 5px;"></i></p>
+            </div>
+
+            <div class="second_section">
+                <div class="img">
+                   <img src="images/news-1.jpg" alt="" width="100%">
+                </div>
+
+                <h3>Wide Range of Surfaces</h3>
+                <p>Just two good ol' boys Never mean no harm.  law since the day.</p>
+                <p class="icon_p"> More Work <i class="fa-solid fa-play" style="margin-left: 5px;"></i></p>
+            </div>
+
+        </div>
+    </div>
+    <!-- blogs end -->
+    <div class="contact_wrapper">
+        <p>Contact Us
+        </p>
+        <h2>We can help your business with <br>
+            our knoledge</h2>
+    </div>
+
+    <!-- form start -->
+  <div class="total_form"> 
+
+    <form action="#" class="contact_form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea required class="textarea" placeholder="Your Message" style="resize: none;"></textarea>
+       <button type="submit" class="submit">Send Message <i class="fa-solid fa-play" style="margin-left: 5px;"></i></button>
+    </form>
+
+    <div class="map_box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.21689628376!2d88.26495002225899!3d22.53556493776448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1688627980158!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+ </div>   
+    <!-- form end -->
+
+ <!-- footer start -->
+ <footer>
+    <div class="box_first">
+        <img src="images/logo-2.png" alt="">
+        <p>Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate business through revolutionary</p>
+        <img src="images/sign.png" alt="">
+    </div>
+
+    <div class="box_second">
+        <h2>Quick Links</h2>
+        <p>About Us</p>
+        <p>Features</p>
+        <p> Projects</p>
+        <p>Blog</p>
+        <p>Contact Us</p>
+    </div>
+    <div class="box_third">
+        <h2>Recent Posts</h2>
+        <p>Top 10 SEO techniques for your site<span>4 April 2018</span></p>
+        <p>Top 10 SEO techniques for your site<span>4 April 2018</span></p>
+        <p style="border:none ;">Top 10 SEO techniques for your site<span>4 April 2018</span></p>
+    </div>
+
+    <div class="box_fourth">
+        <h2>Subscribe</h2>
+      <section>
+        <input type="email" placeholder="Enter Your Email" class="first_input">
+        <button type="submit"> <i class="fa-solid fa-play"></i></button>
+      </section>
+      <h2>Follow Us</h2>
+
+      <section class="social_links">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </section>
+    </div>
+ </footer>
+  <!-- footer end -->
+<div class="last_section">
+     <p >Copyright © 2023. Developed By <span>Mr.Surajit</span></p>
+</div>
+
+
+</div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
